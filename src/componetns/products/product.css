@@ -1,0 +1,49 @@
+.imput-section{
+  text-align: center;
+  margin-top: 3rem;
+}
+
+.imput-section input{
+  width: 20rem;
+  height: 5rem;
+  font-size: 3rem;
+  text-align: center;
+  background-color: #FBFCF6;
+  border: 1px solid lightgray;
+}
+
+.product-list{
+  padding: 4rem;
+}
+
+.product-item {
+  display: flex;
+  height: 10rem;
+  gap: 2rem;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid lightgrey;
+  background-color: wheat;
+  margin-bottom: 2rem;
+  cursor: pointer;
+  transition: all 0.3s ease-out;
+}
+
+
+
+.product-item:hover {
+  transform: translate(5px, -10px);
+}
+
+
+.loading-message{ 
+  font-size: 2rem;
+  font-weight: bolder;
+  text-align: center;
+}
+
+.error-message{ 
+  font-size: 2rem;
+  font-weight: bolder;
+  text-align: center;
+}

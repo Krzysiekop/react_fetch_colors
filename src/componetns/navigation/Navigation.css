@@ -1,0 +1,19 @@
+.nav {
+  display: flex;
+  gap: 5rem;
+  justify-content: center;
+}
+
+.button {
+  padding: 2.5rem 10rem;
+  background-color: #fcf7f6;
+  border: 1px solid lightgray;
+  transition: all 0.3s ease-out;
+  cursor: pointer;
+  letter-spacing: 2px;
+  text-align: center;
+}
+
+.button:hover {
+  transform: scale(1.1);
+}
